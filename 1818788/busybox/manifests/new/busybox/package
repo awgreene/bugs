@@ -1,0 +1,4 @@
+packageName: busybox
+channels:
+- name: "alpha"
+  currentCSV: busybox.v2.0.0

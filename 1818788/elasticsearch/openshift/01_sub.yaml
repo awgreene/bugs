@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: elasticsearch-operator
+  namespace: openshift-operator-lifecycle-manager
+spec:
+  channel: "4.3"
+  installPlanApproval: Automatic
+  name: elasticsearch-operator
+  source: agreene-operators
+  sourceNamespace: openshift-operator-lifecycle-manager
+  startingCSV: elasticsearch-operator.v4.4.0

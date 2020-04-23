@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: agreene-operators
+  namespace: olm
+spec:
+  displayName: Agreene Operators
+  image: quay.io/agreene/busybox-dependencies:new
+  sourceType: grpc
