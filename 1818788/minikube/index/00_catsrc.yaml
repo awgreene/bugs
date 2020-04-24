@@ -5,5 +5,5 @@ metadata:
   namespace: olm
 spec:
   displayName: Agreene Operators
-  image: quay.io/agreene/es-catalog-test:old
+  image: quay.io/agreene/busybox-dependencies-index:1.0.0
   sourceType: grpc

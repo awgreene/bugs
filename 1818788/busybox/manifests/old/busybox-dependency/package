@@ -1,4 +1,0 @@
-packageName: busybox-dependency
-channels:
-- name: "alpha"
-  currentCSV: busybox-dependency.v1.0.0

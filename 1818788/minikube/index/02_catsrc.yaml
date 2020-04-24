@@ -2,8 +2,8 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: agreene-operators
-  namespace: openshift-operator-lifecycle-manager
+  namespace: olm
 spec:
   displayName: Agreene Operators
-  image: quay.io/agreene/es-catalog-test:old
+  image: quay.io/agreene/busybox-dependencies-index:2.0.0
   sourceType: grpc

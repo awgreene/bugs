@@ -1,9 +1,0 @@
-apiVersion: operators.coreos.com/v1alpha1
-kind: CatalogSource
-metadata:
-  name: agreene-operators
-  namespace: openshift-operator-lifecycle-manager
-spec:
-  displayName: Agreene Operators
-  image: quay.io/agreene/es-catalog-test:new
-  sourceType: grpc
